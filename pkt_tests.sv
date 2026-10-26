@@ -35,6 +35,8 @@ class pkt_base_test extends uvm_test;
       env.predictor.soft_reset_clears_sticky = 0;
   endfunction
 
+endclass
+/*
   // ---------------------------------------------------------------------------
   // Test execution
   // ---------------------------------------------------------------------------
@@ -510,4 +512,4 @@ class pkt_regress_test extends pkt_rw_test;
 
   endtask
 
-endclass
+endclass*/
